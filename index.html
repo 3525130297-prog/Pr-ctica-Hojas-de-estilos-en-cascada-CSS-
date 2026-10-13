@@ -1,1 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica CSS - Inicio</title>
+    <!-- Enlace a la hoja de estilos externa -->
+    <link rel="stylesheet" href="estilos.css">
+    <!-- Iconos de FontAwesome (para los íconos de usuario, home, correo, etc.) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- HEADER & BARRA DE NAVEGACIÓN -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-left">
+                <a href="index.html" class="logo-link">
+                    <i class="fa-solid fa-house logo-icon"></i>
+                    <span class="brand-title">Práctica CSS</span>
+                </a>
+            </div>
 
+            <!-- Enlaces a las páginas del equipo -->
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="actualizar_perfil.html">Perfil</a></li>
+                <li><a href="cinco.html">Sección 5</a></li>
+            </ul>
+
+            <div class="nav-right">
+                <a href="iniciar_sesion.html" class="login-btn">
+                    <i class="fa-solid fa-right-to-bracket"></i> Iniciar Sesión
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- CONTENIDO PRINCIPAL (Content) -->
+    <main class="main-content">
+        <section class="welcome-card">
+            <h1>¡Bienvenidos a nuestra Práctica de CSS!</h1>
+            <p>
+                Esta es la página principal de nuestro sitio web. Aquí podrás navegar a través 
+                de los distintos módulos desarrollados por nuestro equipo de trabajo para la materia 
+                de <strong>Desarrollo de Software Multiplataforma</strong>.
+            </p>
+            <p>Utiliza la barra de navegación superior para explorar los diferentes apartados.</p>
+        </section>
+    </main>
+
+    <!-- FOOTER CON DATOS DEL EQUIPO -->
+    <footer class="footer">
+        <h3><i class="fa-solid fa-users"></i> Equipo de Trabajo</h3>
+        <div class="team-grid">
+            <div class="team-member">
+                <p><i class="fa-solid fa-user"></i> Integrante 1 (Jessica Arely Aparicio García)</p>
+                <p><i class="fa-solid fa-envelope"></i> jeconnoob@gmail.com</p>
+            </div>
+            <div class="team-member">
+                <p><i class="fa-solid fa-user"></i> Maria Leticia Perez Coraza</p>
+                <p><i class="fa-solid fa-envelope"></i> correo2@ejemplo.com</p>
+            </div>
+            <div class="team-member">
+                <p><i class="fa-solid fa-user"></i> Cristopher Paredes Solis</p>
+                <p><i class="fa-solid fa-envelope"></i> correo3@ejemplo.com</p>
+            </div>
+            <div class="team-member">
+                <p><i class="fa-solid fa-user"></i> Katherine Juarez Ramirez</p>
+                <p><i class="fa-solid fa-envelope"></i> correo4@ejemplo.com</p>
+            </div>
+            <div class="team-member">
+                <p><i class="fa-solid fa-user"></i> Betsabeth Ramirez Juarez</p>
+                <p><i class="fa-solid fa-envelope"></i> correo5@ejemplo.com</p>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2026 AW 4A - Universidad Tecnológica</p>
+    </footer>
+
+</body>
+</html>
