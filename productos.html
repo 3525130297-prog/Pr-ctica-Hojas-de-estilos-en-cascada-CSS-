@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<!-- Declaración del tipo de documento: indica que este archivo es HTML5 -->
+
+<html lang="es">
+<!-- Elemento raíz del documento HTML. El atributo lang indica el idioma -->
+
+<head>
+    <!-- Contiene metadatos del documento (no visibles directamente en la página) -->
+
+    <meta charset="UTF-8">
+    <!-- Define la codificación de caracteres -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Hace que el sitio sea responsive (adaptable a móviles y tablets) -->
+    <meta name="author" content="Jessica Arely Aparicio García">
+    <!-- Autor del documento -->
+
+    <title>Pagina de inicio de sesion</title>
+    <!-- Título que aparece en la pestaña del navegador -->
+
+    
+</head>
+<body>
+<main>
+      <!-- Contenido principal de la página -->
+<section id="formulario">
+            <!-- Sección con un formulario completo -->
+            
+            <form action="#" method="post">
+                
+                <fieldset>
+                    
+                    <!-- Agrupa campos relacionados -->
+                    <legend><h1>Almacen</h1></legend>
+                        <img src="buscar.png" width="20">
+                        <input type="search" id="search" name="search">
+                        <br><br>
+                    
+                
+            <table border="1">
+    <!-- Título de la tabla -->
+    <caption><h1>Dar de alta producto</h1></caption>
+
+    <!-- Cabecera de la tabla -->
+    <thead>
+      <tr>
+        <th>Nombre</th> <!-- Celda de encabezado -->
+        <th>Descripcion</th>
+        <th>Precio</th>
+        <th>Imagen</th>
+      </tr>
+    </thead>
+
+    <!-- Cuerpo de la tabla -->
+    <tbody>
+      <tr>
+        <td>
+            <label for="nombre">Nombre:</label>
+            <br>
+            <input type="text" id="nombre" name="nombre">
+            
+        </td> <!-- Celda de datos -->
+        <td>
+            <label for="descripcion">Descripción:</label>
+            <br>
+            <input type="text" id="descripcion" name="descripcion">
+        </td>
+        <td>
+            <label for="precio">Precio:</label>
+            <br>
+            <input type="text" id="precio" name="precio">
+        </td>
+        <td>
+            <label for="archivo">Subir archivo:</label>
+            <br>
+            <input type="file" id="archivo" name="archivo">
+        </td>
+        
+      </tr>
+      <tr>
+        <td colspan="4">
+             <input type="submit" value="Guardar producto">
+        </td>
+        
+      </tr>
+    </tbody>
+    
+
+  </table>
+<hr>
+<table border="1">
+    <!-- Título de la tabla -->
+    <caption><h1>Listado de productos</h1></caption>
+
+    <!-- Cabecera de la tabla -->
+    <thead>
+      <tr>
+        <th>#</th> <!-- Celda de encabezado -->
+        <th>Nombre</th>
+        <th>Descripcion</th>
+        <th>Precio</th>
+        <th>Imagen</th>
+        <th colspan="2">acciones</th>
+      </tr>
+    </thead>
+
+    <!-- Cuerpo de la tabla -->
+    <tbody>
+      <tr>
+        <td>
+            1
+        </td> <!-- Celda de datos -->
+        <td>
+            Producto 1
+        </td>
+        <td>
+            Descripcion del producto 1
+        </td>
+        <td>
+            1000
+        </td>
+        <td>
+            <img src="producto1.png" width="20">
+        </td>
+        <td>
+            <img src="editar.png" width="20">
+        </td>
+        <td>
+            <img src="eliminar.png" width="20">
+        </td>
+      </tr>
+      <tr>
+        <td>
+            2
+        </td> <!-- Celda de datos -->
+        <td>
+            Producto 2
+        </td>
+        <td>
+            Descripcion del producto 2
+        </td>
+        <td>
+            2000
+        </td>
+        <td>
+            <img src="producto2.png" width="20">
+        </td>
+        <td>
+            <img src="editar.png" width="20">
+        </td>
+        <td>
+            <img src="eliminar.png" width="20">
+        </td>
+      </tr>
+      <tr>
+        <td>
+            3
+        </td> <!-- Celda de datos -->
+        <td>
+            Producto 3
+        </td>
+        <td>
+            Descripcion del producto 3
+        </td>
+        <td>
+            1000
+        </td>
+        <td>
+            <img src="producto3.png" width="20">
+        </td>
+        <td>
+            <img src="editar.png" width="20">
+        </td>
+        <td>
+            <img src="eliminar.png" width="20">
+        </td>
+      </tr>
+      <tr>
+        <td colspan="7">
+            Total de productos: 3
+        </td>
+        
+      </tr>
+    </tbody>
+    
+
+  </table>
+</fieldset>
+            </form>
+</section>
+</main>
+</body>
+</html>

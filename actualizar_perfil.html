@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!-- Declaración del tipo de documento: indica que este archivo es HTML5 -->
+
+<html lang="es">
+<!-- Elemento raíz del documento HTML. El atributo lang indica el idioma -->
+
+<head>
+    <!-- Contiene metadatos del documento (no visibles directamente en la página) -->
+
+    <meta charset="UTF-8">
+    <!-- Define la codificación de caracteres -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Hace que el sitio sea responsive (adaptable a móviles y tablets) -->
+    <meta name="author" content="Jessica Arely Aparicio García">
+    <!-- Autor del documento -->
+
+    <title>Pagina de inicio de sesion</title>
+    <!-- Título que aparece en la pestaña del navegador -->
+
+    
+</head>
+<body>
+<main>
+      <!-- Contenido principal de la página -->
+<section id="formulario">
+            <!-- Sección con un formulario completo -->
+            
+            <form action="#" method="post">
+                
+                <fieldset>
+                    
+                    <!-- Agrupa campos relacionados -->
+                    <legend><h1>Actualizar perfil</h1></legend>
+                    
+                    <label for="nombre">Nombre completo:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+                    <br><br>
+                    <label for="aPaterno">Apellido paterno:</label>
+                    <input type="text" id="aPaterno" name="aPaterno" placeholder="Tu apellido paterno">
+                    <br><br>
+                    <label for="aMaterno">Apellido materno:</label>
+                    <input type="text" id="aMaterno" name="aMaterno" placeholder="Tu apellido materno">
+                    <br><br>
+                    <p>Género:</p>
+                    <input type="radio" id="masculino" name="genero" value="masculino">
+                    <label for="masculino">Masculino</label><br>
+                    <input type="radio" id="femenino" name="genero" value="femenino">
+                    <label for="femenino">Femenino</label><br>
+                    <input type="radio" id="otro" name="genero" value="otro">
+                    <label for="otro">Otro</label><br><br>
+                    <label for="correo">Correo electronico:</label>
+                    <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com">
+                    <br><br>
+                    <label for="telefono">Teléfono:</label>
+                    <input type="text" id="telefono" name="telefono" placeholder="+52 1234567890">
+                    <br><br>
+                    <label for="direccion">Dirección:</label>
+                    <textarea id="direccion" name="direccion" rows="4"></textarea><br><br>
+                    <label for="con">Nueva contraseña:</label>
+                    <input type="text" id="con" name="con" placeholder="********">
+                    <br><br>
+                    <label for="archivo">Subir archivo:</label>
+                    <br>
+                    <input type="file" id="archivo" name="archivo">
+                    <br><br>
+                    <input type="submit" value="Guardar cambios">
+                    <br><br>
+
+                </fieldset>
+            </form>
+</section>
+</main>
+</body>
+</html>
